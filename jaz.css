@@ -1,0 +1,281 @@
+body{
+    zoom: 0.78;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #FFE7D1;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    text-decoration: none;
+    color: #000000;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 90px;
+    width: 1366px;
+    height: 120px;
+
+    border: 1px solid;
+}
+.logo{
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.navbar{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 180px;
+    font-size: 14px;
+}
+button[type="inscreva"]{
+    margin-left: 100px;
+    width: 250px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+
+    box-shadow: 5px 5px #302f2f;
+    border: 4px solid ;
+    background-color: #ED4D1B;
+    transition: background-color 1.1s;
+}
+button[type="inscreva"]:hover{
+    background-color: #FF9A3C;
+}
+section{
+    width: 1546px;
+    height: 956px;
+    display: flex;
+
+    border: 2px solid #000000;
+}
+.container{
+    margin-left: 80px;
+}
+.texto{
+    width: 440px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 100px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 80px;
+}
+.img-dashes{
+    position: absolute;
+    left: 560px;
+    top: 300px;
+    width: 54px;
+}
+.img_curve{
+    position: absolute;
+    top: 100%;
+    left: 24%;
+}
+.cor{
+    color: #ED4D1B;
+}
+.sub-texto{
+    width: 430px;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 40px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+}
+button[type="comece"]{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 280px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+
+    box-shadow: 5px 5px #302f2f;
+    border: 4px solid ;
+    background-color: #ED4D1B;
+    transition: background-color 1.1s;
+}
+button[type="comece"]:hover{
+    background-color: #FF9A3C;
+}
+
+aside{
+    width: 1546px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid ;
+}
+.container_tipo{
+    position: relative;
+    top: -182px;
+    width: 91%;
+    height: 64%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box1{
+    width: 250px;
+    height: 290px;
+    padding: 40px 40px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 1s ease;
+
+    box-shadow: 5px 5px #302f2f;
+    border: 3px solid ;
+    background: #ED4D1B;
+}
+.box1:hover:nth-child(2n){
+    rotate: 4deg;
+    transform: scale(1.1);
+}
+.box1:hover:nth-child(2n+1){
+    rotate: -4deg;
+    z-index: 1;
+    transform: scale(1.1);
+}
+.container_tipo .box1:nth-child(2n+2){
+    position: relative;
+    margin-top: 12px;
+
+    background: #FF9A3C;
+}
+.box1 :nth-child(2){
+    font-weight: 900;
+}
+.seta{
+    position: relative;
+    left: 86%;
+}
+.container_outros{
+    margin: -180px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto2{
+    width: 600px;
+    height: 120px;
+    margin-top: 0px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 80px;
+}
+button[type="conheca"]{
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+
+    box-shadow: 5px 5px #302f2f;
+    border: 3px solid ;
+    background-color: #ED4D1B;
+    transition: background-color 1.1s;
+}
+button[type="conheca"]:hover{
+    background-color: #FF9A3C;
+}
+
+footer{
+    width: 1546px;
+    height: 366px;
+    display: flex;
+    flex-direction: row;
+    padding: 3% 0;
+
+    border: 2px solid #000000;
+}
+.fo{
+    width: 25%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.sub{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.subt{
+    font-size: 20px;
+    width: 280px;
+}
+.ot{
+    width: 15%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 60px;
+    line-height: 50px;
+}
+nav h2 :hover{
+    text-decoration: 4px underline;
+}
+.er{
+    width: 50%;
+    font-size: large;
+}
+.pesquisa{
+    width: 84%;
+    height: 13%;
+    margin-top: 50px;
+
+    box-shadow: 5px 5px #302f2f;
+    border: 2px solid #000000;
+    background: #FFFFFF;
+}
+input[type="pesqui"]{
+    width: 97%;
+    height: 90%;
+    background: none;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 19px;
+}
+input[type="pesqui"]:focus{
+    outline: none;
+}
+button[type="quero"]{
+    width: 280px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+    box-shadow: 5px 5px #302f2f;
+    border: 2px solid ;
+    background-color: #ED4D1B;
+    transition: background-color 1.1s;
+}
+button[type="quero"]:hover{
+    background-color: #FF9A3C;
+}
